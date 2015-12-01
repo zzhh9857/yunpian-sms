@@ -22,7 +22,7 @@ class YunPianSms extends YunPianBase{
         }
         $params=[
             'mobile' => $phone,
-            'text' => $cnt,
+            'tpl_value' => $cnt,
         ];
         if(!empty($options)){
             $params=array_merge($params,$options);
