@@ -27,7 +27,7 @@ class YunPianSms extends YunPianBase{
         if(!empty($options)){
             $params=array_merge($params,$options);
         }
-        $response=$this->send('/v1/sms/send.json',$params);
+        $response=$this->send('/v1/sms/tpl_send.json',$params);
 
         return $response;
     }

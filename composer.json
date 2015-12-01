@@ -1,5 +1,5 @@
 {
-    "name": "ender/yunpian-sms",
+    "name": "zzhh9857/laravel-unpian",
     "description": "A php SDK for yunpian(云片网络短信服务商) sms RESTFULL API",
     "keywords": [
         "sms",
